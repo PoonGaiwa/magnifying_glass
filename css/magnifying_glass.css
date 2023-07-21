@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.product-intro {
+  position: relative;
+  margin-top: 200px;
+  margin-left: 200px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+}
+
+.preview {
+  position: relative;
+}
+
+.mask {
+  display: none;
+  position: absolute;
+  top: 0;
+  height: 60%;
+  width: 60%;
+  background-color: rgba(255, 218, 148, .3);
+  border: 1px solid #fff6c1;
+}
+
+.enlargement {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  top: -1px;
+  left: 301px;
+  width: 600px;
+  height: 600px;
+  border: 1px solid #ccc;
+}
+
+.active {
+  display: block;
+}
